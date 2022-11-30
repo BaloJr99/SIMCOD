@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ProyectoFinal6PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>jpa.TblProveedores</class>
+    <class>jpa.TblSucursales</class>
+    <class>jpa.TblInventario</class>
+    <class>jpa.TblCombos</class>
+    <class>jpa.TblClientes</class>
+    <class>jpa.TblTelefonoEmpleado</class>
+    <class>jpa.Sysdiagrams</class>
+    <class>jpa.TblBancos</class>
+    <class>jpa.TblProductos</class>
+    <class>jpa.TblMesas</class>
+    <class>jpa.TblDireccionEmpleado</class>
+    <class>jpa.TblPagosTarjeta</class>
+    <class>jpa.TblCargo</class>
+    <class>jpa.TblReservaciones</class>
+    <class>jpa.TblEmpleado</class>
+    <class>jpa.TblPedido</class>
+    <class>jpa.TblFormasPago</class>
+    <class>jpa.TblProductosXCombo</class>
+    <class>jpa.TblIngreXProd</class>
+    <class>jpa.TblOrdenes</class>
+    <class>jpa.TblTipoCombo</class>
+    <class>jpa.TblMesasXReserva</class>
+    <class>jpa.TblIngreXPedido</class>
+    <class>jpa.VWIngredientes</class>
+    <class>jpa.TblRegistroJornadaTrabajo</class>
+    <class>jpa.TblIngredientes</class>
+    <class>jpa.TblFactura</class>
+    <class>jpa.TblOrdenesFacturadas</class>
+    <class>jpa.TblLogin</class>
+    <class>jpa.TblPago</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://BALOJR999\SQLSERVER267:1433;databaseName=restaurante"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="Pirata99*"/>
+    </properties>
+  </persistence-unit>
+</persistence>
